@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8549870623A278780059EF20 /* RockTheVoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8549870523A278780059EF20 /* RockTheVoteTableViewController.swift */; };
 		85E66A4223A273AC008913D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E66A4123A273AC008913D7 /* AppDelegate.swift */; };
 		85E66A4423A273AC008913D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E66A4323A273AC008913D7 /* SceneDelegate.swift */; };
 		85E66A4623A273AC008913D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E66A4523A273AC008913D7 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8549870523A278780059EF20 /* RockTheVoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockTheVoteTableViewController.swift; sourceTree = "<group>"; };
 		85E66A3E23A273AC008913D7 /* RockTheVote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockTheVote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E66A4123A273AC008913D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85E66A4323A273AC008913D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				85E66A4F23A273AE008913D7 /* LaunchScreen.storyboard */,
 				85E66A5223A273AE008913D7 /* Info.plist */,
 				85E66A4A23A273AC008913D7 /* RockTheVote.xcdatamodeld */,
+				8549870523A278780059EF20 /* RockTheVoteTableViewController.swift */,
 			);
 			path = RockTheVote;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				85E66A4623A273AC008913D7 /* ViewController.swift in Sources */,
 				85E66A4223A273AC008913D7 /* AppDelegate.swift in Sources */,
+				8549870623A278780059EF20 /* RockTheVoteTableViewController.swift in Sources */,
 				85E66A4C23A273AC008913D7 /* RockTheVote.xcdatamodeld in Sources */,
 				85E66A4423A273AC008913D7 /* SceneDelegate.swift in Sources */,
 			);
@@ -298,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Joe.RockTheVote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Joe.RockTheVote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
